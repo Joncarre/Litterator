@@ -10,7 +10,7 @@ function getMessage(mano){
     if(mano == 21){
        return "BLACKJACK"
     }else{
-        // Forma corta de poner una sentencia if-
+        // Forma corta de poner una sentencia if-else
         let mensaje = mano > 21 ? "PERDISTE" : "Sigue jugando"
         return mensaje
     }

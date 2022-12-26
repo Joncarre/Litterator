@@ -17,5 +17,5 @@ function bubble_sort(arr) {
 // Creamos un array desordenado
 let arr = [1, 43, 9, 63, 5, 6, 235, 547];
 
-// Now pass this array to the bblSort() function
+// Llamamos a la función que ordena el array y le pasamos el array desordenado
 bubble_sort(arr);

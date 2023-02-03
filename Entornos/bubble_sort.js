@@ -6,7 +6,7 @@ function bubble_sort(arr) {
         for (let j = 1; j < (arr.length - i - 1); j++) {
             if (arr[j] > arr[j + 1]) {
                 // Si la condición se cumple, intercambiamos los valores
-                let temp = arr[j+1]
+                let temp = arr[j + 1]
                 arr[j] = arr[j + 1]
                 arr[j + 1] = temp
             }
